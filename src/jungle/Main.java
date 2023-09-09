@@ -1,6 +1,8 @@
 package jungle;
 
 import java.security.cert.TrustAnchor;
+import java.util.Scanner;
+// è dovuto dall'utilizzo di Scanner
 
 public class Main {
 
@@ -32,5 +34,17 @@ public class Main {
         // da un valore ad una variabile
         frase0.length();
         // utilizza la funzione lenght() della stringa frase0
+        System.out.println("testo a caso");
+        System.out.print(numero0);
+        System.out.println(numero1 + "si chiama abdul");
+        // crea un output, print, anziche println, non va a capo
+        Scanner scanner = new Scanner(System.in);
+        // crea uno scanner
+        String input0 = scanner.nextLine();
+        // crea un input
+        System.out.println("hai detto: " + input0);
+        // output basico
+        scanner.close();
+        // chiude lo scanner !!!DA METTERE ALLA FINE DEL CODICE!!!
     }
 }
