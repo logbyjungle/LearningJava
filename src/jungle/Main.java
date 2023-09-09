@@ -42,7 +42,7 @@ public class Main {
         // crea uno scanner
         String input0 = scanner.nextLine();
         // crea un input
-        // nel caso l'input sono stringhe è consigliato usare scanner.next() anziche scanner.nextline()
+        // nel caso in cui l'input sono stringhe è consigliato usare scanner.next() anziche scanner.nextline()
         System.out.println("hai detto: " + input0);
         // output basico
         scanner.close();
