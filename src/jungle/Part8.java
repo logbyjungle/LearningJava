@@ -16,7 +16,7 @@ public class Part8 {
         // non servono i booleani per questa cosa, vero o falso è automatico
         System.out.println(stringa.contains("Gatti"));
         System.out.println(stringa.charAt(0));
-        // da il carattere a indice indicato
+        // dà il carattere a indice indicato
 
     }
 }
