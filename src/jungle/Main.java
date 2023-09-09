@@ -45,6 +45,6 @@ public class Main {
         System.out.println("hai detto: " + input0);
         // output basico
         scanner.close();
-        // chiude lo scanner !!!DA METTERE ALLA FINE DEL CODICE!!!
+        // chiude lo scanner !!!NECESSARIO ALLA FINE DEL CODICE!!!
     }
 }
