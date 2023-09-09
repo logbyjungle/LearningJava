@@ -38,6 +38,6 @@ public class Part10 {
                 System.out.println(numero);
             }
         }
-        // nel tipo di loop mentre si può usare continue; e break;
+        // in questo tipo di loop mentre si può usare continue; e break;
     }
 }
