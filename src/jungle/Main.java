@@ -26,6 +26,11 @@ public class Main {
         String frase0 = "questa frase non esiste";
         String frase1 = null;
         // contiene una stringa di testo oppure niente
-
+        int numero7;
+        // crea un variabile che può contenere un numero intero
+        numero7 = 69;
+        // da un valore ad una variabile
+        frase0.length();
+        // utilizza la funzione lenght() della stringa frase0
     }
 }
