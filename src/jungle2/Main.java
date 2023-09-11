@@ -7,20 +7,25 @@ public class Main {
 
         Bro abdul = new Bro();
         // crea un Bro
-        System.out.println(abdul.intelligenza);
+        System.out.println(abdul.forza);
         // l'oggetto abdul e' un Bro e puo' possodere il parametro intelligenza che in questo caso ha il valore di
         // default di 100 come impostato nella classe Bro, se non veniva impostato aveva il valore null
-        abdul.intelligenza = 104;
-        System.out.println(abdul.intelligenza);
+        abdul.forza = 104;
+        System.out.println(abdul.forza);
 
         Bro goku = new Bro(10, "goku", 1000);
         // crea un oggetto goku utilizzando il constructor creato nella classe Bro
         System.out.println(goku.forza);
 
+        System.out.println(goku.forza * Bro.moltiplicatoreforzax5);
+
         goku.Died();
         // si puo' dare funzioni agli oggetti
-        System.out.println(goku.intelligenza);
         System.out.println(goku.forza);
+        System.out.println(goku.getNome());
+
+
+
 
 
     }

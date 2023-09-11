@@ -1,7 +1,20 @@
 package jungle2;
 public class Bro {
-    public int intelligenza;
-    public String nome;
+    public final int intelligenza;
+    // finale vuol dire che non si puo' cambiare
+    private String nome;
+    // private impedisce l'utilizzo all'esterno della class
+
+    public static final int moltiplicatoreforzax5 = 5;
+    // essendo statico lo si deve richiamare con la classe, in questo caso Bro, in quanto e' uguale per tutti gli oggetti
+
+    public String getNome() {
+        return nome;
+    }
+    // dato che non si puo' piu utilizzare all'esterno della class bisogna fare click destro, generate, getter
+    // e anziche fare this.nome si fa this.getNome()
+
+
     public int forza;
     // imposta i parametri per l'oggetto bro
     public Bro() {
@@ -23,7 +36,6 @@ public class Bro {
     public void Died() {
         System.out.println(this.nome + " e' morto");
         this.forza = 0;
-        this.intelligenza = 0;
     }
     // this indica l'oggetto selezionato e si puo' usare dentro alle "funzioni"
 
