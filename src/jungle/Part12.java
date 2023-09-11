@@ -1,9 +1,6 @@
 package jungle;
 
-import java.util.ArrayList;
-import java.util.HashMap;
-import java.util.List;
-import java.util.Map;
+import java.util.*;
 
 public class Part12 {
     public static void main(String[] args) {
@@ -39,6 +36,11 @@ public class Part12 {
         // dice se contiene un valore indietro
         pulsanteamovimento.remove("D");
         // rimuove una chiave dell'hashmap e il valore corrispondente
+
+        Set<String> setbello = new HashSet<>();
+        System.out.println(setbello.add("peperone"));
+        System.out.println(setbello.add("peperone"));
+        // dato che un set non puo contenere duplicati l'aggiunta e' falsa
 
     }
 }
