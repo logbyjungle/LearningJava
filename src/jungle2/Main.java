@@ -1,5 +1,8 @@
 package jungle2;
 
+import java.util.ArrayList;
+import java.util.List;
+
 public class Main {
     public static void main(String[] args) {
         // anziche con la creazione di funzioni, che servivano a fare eseguire cose, le classi servono per la creazione
@@ -35,8 +38,14 @@ public class Main {
         stella sole = new stella();
         System.out.println(sole.identificatore);
 
-
-
+        List<IoGrosso> grossi = new ArrayList<>();
+        grossi.add(sole);
+        // posso quindi creare una lista di tutti quelli a cui appartengono all'oggetto a cui ho attribuito l'interfaccia
+        // stella, posso dare la stessa interfaccia a piu classi
+        for (IoGrosso grosso : grossi) {
+            grosso.grosso();
+        }
+        // e posso usare la funzione grosso che ho precedentemente definito
 
 
 
