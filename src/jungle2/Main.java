@@ -32,6 +32,11 @@ public class Main {
 
         Chad.Died();
 
+        stella sole = new stella();
+        System.out.println(sole.identificatore);
+
+
+
 
 
 
