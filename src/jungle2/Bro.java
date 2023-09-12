@@ -2,7 +2,8 @@ package jungle2;
 public class Bro {
     public final int intelligenza;
     // finale vuol dire che non si puo' cambiare
-    private String nome;
+    protected String nome;
+    private String nonutilizzato;
     // private impedisce l'utilizzo all'esterno della class
 
     public static final int moltiplicatoreforzax5 = 5;
@@ -20,7 +21,7 @@ public class Bro {
     public Bro() {
         intelligenza = 100;
         forza = 100;
-        nome = "IlBro";
+        nome = "Bro";
     }
     // da dei parametri di default all'oggetto bro
 
@@ -38,6 +39,8 @@ public class Bro {
         this.forza = 0;
     }
     // this indica l'oggetto selezionato e si puo' usare dentro alle "funzioni"
+
+
 
 
 }

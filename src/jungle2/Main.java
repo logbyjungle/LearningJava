@@ -24,6 +24,14 @@ public class Main {
         System.out.println(goku.forza);
         System.out.println(goku.getNome());
 
+        Chad Chad = new Chad();
+
+        System.out.println(Chad.forza);
+
+        Chad.Jumped();
+
+        Chad.Died();
+
 
 
 
